@@ -4,9 +4,10 @@
 
 然后使用
 
-	rails g scaffold Post title:string category_id:integer body:text
-	rails g scaffold admin/posts title:string category_id:integer body:text
+ rails g scaffold Post title:string category_id:integer body:text
+ rails g scaffold admin/posts title:string category_id:integer body:text
 
 来生成试试。
 
+这个需要 wice_grid[https://github.com/justinfrench/formtastic] 和 simple_form[https://github.com/plataformatec/simple_form] 这两个 Rails 插件。
 
